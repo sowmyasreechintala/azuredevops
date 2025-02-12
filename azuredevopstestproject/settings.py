@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-@vm0k$_zh8*mr&x%smv92kaiqi8_bu)crax(r#rqf)a-#*lomy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://westusapp-e4fghaffckdvbtav.westus-01.azurewebsites.net/', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
