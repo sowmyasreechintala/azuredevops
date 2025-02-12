@@ -26,11 +26,11 @@ jobs:
 
       - name: Create and start virtual environment
         run: |
-          python3 -m venv venv
+          python -m venv venv
           source venv/bin/activate
       
       - name: Install dependencies
-        run: pip3 install -r requirements.txt
+        run: pip install -r requirements.txt
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
@@ -68,9 +68,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_04CC3CB25F134DBDA2C147EB90DE4DAE }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_ED6E63AE9E364D2DB872C64F6878C172 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_3066F549D2B24100A6E255693F0EC13D }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_7F47EA36A8CD4BD3AB11746D5D0A643E }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_EDDEC7D3879D489899C0890B7EC86752 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_F040716DEAC54855A894C167E5C9805A }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
