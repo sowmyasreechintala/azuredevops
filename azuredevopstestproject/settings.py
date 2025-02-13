@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@vm0k$_zh8*mr&x%smv92kaiqi8_bu)crax(r#rqf)a-#*lomy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cicdapp-fpdwaba5e4byercc.westus-01.azurewebsites.net', 'localhost', '127.0.0.1','13.73.38.198']
+ALLOWED_HOSTS = ['cicdapp-fpdwaba5e4byercc.westus-01.azurewebsites.net', 'localhost', '127.0.0.1','13.73.38.198','40.112.243.53']
 
 
 
